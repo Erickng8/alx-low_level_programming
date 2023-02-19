@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - print numbers with single digit from 0 to 10
+ * main - print all single digits number of base 10
  *
- * Return: always 0
+ * Return: 0 if successful
  */
 int main(void)
 {
-	int n;
+	int var;
 
-	for (n = '0'; n < '10'; n++)
-		putchar(n);
-		{
-			putchar('\n');
-		}
+	for (var = 0; var < 10; var++)
+		printf("%d", var);
+
+	printf("\n");
 	return (0);
+
 }
